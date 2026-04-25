@@ -6,7 +6,7 @@ A Machine Learning project that predicts whether a child is Amblyopic (Lazy Eye)
 
 ## About the Project
 
-Amblyopia (Lazy Eye) is a vision disorder where one eye is weaker than the other. Early detection is critical for effective treatment. This project builds a binary classification model using Random Forest to detect Amblyopia in children aged 2-10 years. The model is deployed as an interactive Streamlit web application with a medical-themed UI.
+Amblyopia (Lazy Eye) is a vision disorder where one eye is weaker than the other. Early detection is critical for effective treatment. This project builds a binary classification model using Random Forest to detect Amblyopia in children aged 2-10 years. The model is deployed as an interactive Streamlit web application.
 
 ---
 
