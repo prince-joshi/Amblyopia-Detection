@@ -2,6 +2,8 @@
 
 A Machine Learning project that predicts whether a child is Amblyopic (Lazy Eye) based on clinical features like Visual Acuity, Refractive Error, and Strabismus.
 
+🚀 Live Demo: https://amblyopia-detection-prince-joshi.streamlit.app
+
 ---
 
 ## About the Project
@@ -71,6 +73,41 @@ Amblyopia (Lazy Eye) is a vision disorder where one eye is weaker than the other
 - About Amblyopia section — Symptoms, Causes, Treatment
 - Model performance metrics — Accuracy, Records, Trees, Features
 
+---
+
+## Sample Test Cases
+
+Try these values directly on the live app to see the model in action!
+
+**Test Case 1 — Amblyopic (Expected: Amblyopic Detected)**
+
+| Feature | Value |
+|---------|-------|
+| Age | 5 |
+| Visual Acuity Left Eye | 0.43 |
+| Visual Acuity Right Eye | 0.98 |
+| Refractive Error | 0.33 |
+| Ocular Alignment | Misaligned |
+| Vision Screening Result | Fail |
+| Strabismus | No |
+| Family History | No |
+| Premature Birth | No |
+| Eye Patching Treatment | Yes |
+
+**Test Case 2 — Not Amblyopic (Expected: Not Amblyopic)**
+
+| Feature | Value |
+|---------|-------|
+| Age | 6 |
+| Visual Acuity Left Eye | 0.81 |
+| Visual Acuity Right Eye | 0.88 |
+| Refractive Error | 0.66 |
+| Ocular Alignment | Normal |
+| Vision Screening Result | Pass |
+| Strabismus | No |
+| Family History | No |
+| Premature Birth | No |
+| Eye Patching Treatment | No |
 
 ---
 
@@ -90,5 +127,3 @@ Amblyopia (Lazy Eye) is a vision disorder where one eye is weaker than the other
 ![Amblyopia Detector - Main Screen](app_screenshot_1.png)
 
 ![Amblyopia Detector - Prediction Result](app_screenshot_2.png)
-
-
