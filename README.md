@@ -85,4 +85,10 @@ Amblyopia (Lazy Eye) is a vision disorder where one eye is weaker than the other
 
 ---
 
-*Developed by Prince Joshi | Aspiring Data Analyst*
+## Screenshots
+
+![Amblyopia Detector - Main Screen](app_screenshot_1.png)
+
+![Amblyopia Detector - Prediction Result](app_screenshot_2.png)
+
+
